@@ -116,7 +116,7 @@ directory. It should look something like this:
 ```rb
 # app/serializers/movie_serializer.rb
 class MovieSerializer < ActiveModel::Serializer
-  attributes :id
+  attributes :id, :year, :length, :director, :description, :poster_url, :category, :discount, :female_director
 end
 ```
 
